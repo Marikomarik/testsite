@@ -62,8 +62,15 @@ nav div {
 	width: 478.3643798828125px;
 	height: 353px;
 	z-index: 1;
+	transform: translate(0px,120%);
+	opacity: 0;
+	transition: all 0.8s ease 0s;
 }
 
+#info._active{
+	transform: translate(0px,0px);
+	opacity: 1;
+}
 .icons {
 	width: 279px;
 	display: flex;
