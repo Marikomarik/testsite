@@ -1,6 +1,6 @@
 body {
 	overflow-x: hidden;
-	font-family: arial;
+	font-family: sans-serif;
 	margin: 0% 0%;
 	background-color: rgb(255, 255, 255);
 }
@@ -89,7 +89,6 @@ nav div {
 }
 
 #info_text h1{
-	font-family: Montserrat;
 	font-size: 72px;
 	font-weight: 600;
 	line-height: 88px;
@@ -100,7 +99,6 @@ nav div {
 
 #info_text p{
 	width: 70%;
-	font-family: Montserrat;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 20px;
@@ -122,7 +120,6 @@ nav div {
 }
 
 #info_button div {
-	font-family: Montserrat;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 26px;
@@ -145,7 +142,6 @@ nav div {
 }
 #qestions div
 {
-	font-family: Montserrat;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 16px;
@@ -182,7 +178,6 @@ nav div {
 .secound_1 {
 	width: 100%;
 	text-align: center;
-	font-family: Montserrat;
 	font-size: 72px;
 	font-weight: 600;
 	line-height: 88px;
@@ -225,7 +220,6 @@ nav div {
 	position: absolute;
 	right: 10%;
 	top: 15%;
-	font-family: Montserrat;
 	font-size: 36px;
 	font-weight: 600;
 	line-height: 44px;
@@ -244,7 +238,6 @@ nav div {
 	width: 620px;
 	height: 70px;
 	border: 1px;
-	font-family: Montserrat;
 	font-size: 60px;
 	font-weight: 600;
 	line-height: 70px;
@@ -273,7 +266,6 @@ nav div {
 
 .secound_3_block_blocks_text p:nth-child(1){
 	margin: 0;
-	font-family: Montserrat;
 	font-size: 48px;
 	font-weight: 600;
 	line-height: 59px;
@@ -281,7 +273,6 @@ nav div {
 }
 .secound_3_block_blocks_text p:nth-child(2){
 	margin: 0;
-	font-family: Montserrat;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 22px;
@@ -313,7 +304,6 @@ nav div {
 }
 
 .third_text:nth-child(1) {
-	font-family: Montserrat;
 	font-size: 90px;
 	font-weight: 600;
 	line-height: 70px;
@@ -331,7 +321,6 @@ nav div {
 }
 
 .third_text:nth-child(2) p:nth-child(1) {
-	font-family: Montserrat;
 	font-size: 60px;
 	font-weight: 600;
 	line-height: 70px;
@@ -341,7 +330,6 @@ nav div {
 }
 
 .third_text:nth-child(2) p:nth-child(2) {
-	font-family: Montserrat;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 20px;
@@ -397,7 +385,6 @@ nav div {
 
 .fourth_block_text {
 	width: 556px;
-	font-family: Montserrat;
 	font-size: 72px;
 	font-weight: 600;
 	line-height: 70px;
@@ -409,7 +396,6 @@ nav div {
 .fourth_block_button {
 	width: 556px;
 	height: 89.82px;
-	font-family: Montserrat;
 	font-size: 36px;
 	font-weight: 600;
 	line-height: 32px;
@@ -431,7 +417,6 @@ nav div {
 
 .fifth_text {
 	text-align: center;
-	font-family: Montserrat;
 	font-size: 72px;
 	font-weight: 600;
 	line-height: 88px;
@@ -440,7 +425,6 @@ nav div {
 }
 
 .fifth_block {
-	font-family: Montserrat;
 	font-size: 72px;
 	font-weight: 600;
 	line-height: 88px;
@@ -483,7 +467,6 @@ nav div {
 
 .sixth_text {
 	text-align: center;
-	font-family: Montserrat;
 	font-size: 72px;
 	font-weight: 600;
 	line-height: 88px;
@@ -492,7 +475,6 @@ nav div {
 }
 
 .sixth_block {
-	font-family: Montserrat;
 	font-size: 72px;
 	font-weight: 600;
 	line-height: 88px;
@@ -531,7 +513,6 @@ nav div {
 
 .footer_text {
 	text-align: center;
-	font-family: Montserrat;
 	font-size: 72px;
 	font-weight: 600;
 	line-height: 88px;
@@ -540,7 +521,6 @@ nav div {
 }
 
 .footer_block {
-	font-family: Montserrat;
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 37px;
