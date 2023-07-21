@@ -124,6 +124,13 @@ nav div {
 	background: #ED8C68;
 	display: flex;
 	align-items: center;
+	transition-duration: 1s;
+	transition-property: background-color ;
+
+}
+#info_button:hover{
+	top: 2px;
+	background-color: #00CED1;
 }
 
 #info_button div {
