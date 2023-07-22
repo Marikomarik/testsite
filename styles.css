@@ -189,7 +189,6 @@ nav div {
 	align-items: center;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 725px;
 	padding: 60px 0;
 }
 
@@ -200,6 +199,7 @@ nav div {
 	font-weight: 600;
 	line-height: 88px;
 	letter-spacing: 0em;
+	margin-bottom: 30px;
 }
 
 .secound_2 {
@@ -208,6 +208,7 @@ nav div {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
+	margin-bottom: 60px;
 }
 
 .secound_2_blocks {
