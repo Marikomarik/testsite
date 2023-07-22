@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html id="html">
+<html lang="ru">
 <head>
 	<title>Работа</title>
 	<script type="text/javascript" src="jq.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,9 +32,9 @@
 						<h1>Я Антон</h1>
 						<p>Репититор игры на гитаре с семилетним опытом преподавания</p>
 					</div>
-					<div id="info_button">
-						<div>Забронировать урок</div>
-					</div>
+					<button id="info_button" type="button" class="btn btn-primary">
+						<p>Забронировать урок</p>
+					</button>
 					<div id="qestions">
 						<img src="img/chat.png">Есть вопросы?
 					</div>
@@ -127,9 +128,9 @@
 		<div class="container fourth">
 			<div class="fourth_block">
 				<p class="fourth_block_text">Запишись на пробный урок</p>
-				<a class="fourth_block_button">
+				<button class="btn fourth_block_button btn-primary" type="button">
 					<p>Забронировать урок</p>
-				</a>
+				</button>
 			</div>
 		</div>
 		<img src="img/[SW6.png" class="fourth_img">
@@ -167,10 +168,12 @@
 		</div>
 	</footer>
   
-<script type="text/javascript"> 
-window.onload = function (){ 
-    document.getElementById("info").classList.add('_active');
-}
-</script>
+	<script type="text/javascript"> 
+		window.onload = function (){ 
+		    document.getElementById("info").classList.add('_active');
+		}
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
   </body>
 </html>
