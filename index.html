@@ -4,22 +4,28 @@
 	<title>Работа</title>
 	<script type="text/javascript" src="jq.js"></script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
+
 	<div class="background">
 		<div class="container" style="position: relative;">
 			<nav class="">
-				<a href=""><img src="img/logo.png"></a>
+				<a href=""><img src="img/logo.png"data-aos="zoom-in"data-aos-duration="1000"></a>
 				<div>
-					<a href="" class="nav_text">Обо мне</a>
-					<a href="" class="nav_text">Занятия</a>
-					<a href="" class="nav_text">Запись</a>
+					<a href="" class="nav_text"data-aos="zoom-in"data-aos-duration="1000">Обо мне</a>
+					<a href="" class="nav_text"data-aos="zoom-in"data-aos-duration="1000">Занятия</a>
+					<a href="" class="nav_text"data-aos="zoom-in"data-aos-duration="1000">Запись</a>
 				</div>
 			</nav>
-			<div id="gitaris_container">
+			<div id="gitaris_container"data-aos="zoom-in"data-aos-duration="1000">
+
 				<img src="img/gitarist.png" id="gitarist">
 				<div id="info">
 					<div class="icons">
@@ -40,27 +46,28 @@
 					</div>
 				</div>
 			</div>
-			<img class="dec_circle first_dec1" src="img/gradient.png"></img>
+			<img class="dec_circle first_dec1" src="img/gradient.png"data-aos="zoom-in"data-aos-duration="1000"></img>
 		</div>
 	</div>
 
 	<div class="background">
 		<div class="container secound">
-			<div class="secound_1">
+			<div class="secound_1"data-aos="zoom-in"data-aos-duration="1000">
 				Преподаю
 			</div>
 			<div class="secound_2">
-				<div class="secound_2_blocks"><img src="img/g1.png">
+				<div class="secound_2_blocks"data-aos="flip-left"data-aos-duration="600" data-aos-easing="linear"data-aos-anchor-placement="center-bottom"><img src="img/g1.png">
 					<div class="secound_2_blocks_text">Электро гитара</div>
 				</div>
-				<div class="secound_2_blocks"><img src="img/g2.png">
+				<div class="secound_2_blocks"data-aos="flip-left"data-aos-duration="800" data-aos-easing="linear"data-aos-anchor-placement="center-bottom"><img src="img/g2.png">
 					<div class="secound_2_blocks_text">Акустическая гитара</div>
 				</div>
-				<div class="secound_2_blocks"><img src="img/g3.png">
+				<div class="secound_2_blocks"data-aos="flip-left"data-aos-duration="1300" data-aos-easing="linear"data-aos-anchor-placement="center-bottom"><img src="img/g3.png">
 					<div class="secound_2_blocks_text">Укулелли гитара</div>
 				</div>
 			</div>
-			<div class="secound_3">
+			<div class="secound_3"data-aos="fade-down"
+    					 data-aos-duration="1500">
 				<div class="secound_3_text"> 
 					<p>Мои достижения</p>
 				</div>
@@ -102,11 +109,19 @@
 
 	<div class="background">
 		<div class="container third">
-			<div class="third_text">
+			<div class="third_text"data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-duration="700"
+      data-aos-anchor-placement="center-bottom"
+     >
+     
 				<p>Обучение</p>
 			</div>
 
-			<div class="third_text">
+			<div class="third_text"data-aos="zoom-in-left"
+     data-aos-easing="ease-in-back"
+     data-aos-duration="500"
+      data-aos-anchor-placement="center-bottom">
 				<p>Готовлю виртуозов</p>
 				<p>
 					Также как новая модель организационной деятельности обеспечивает широкому кругу (специалистов) участие в формировании переосмысления внешнеэкономических политик. С другой стороны, выбранный нами инновационный путь предоставляет широкие возможности для системы массового участия. Как уже неоднократно упомянуто, независимые государства освещают чрезвычайно интересные особенности картины в целом.<br><br>Противоположная точка зрения подразумевает, что многие известные личности набирают популярность среди определенных слоев населения, а значит, должны быть преданы социально-демократической анафеме. Повседневная практика показывает, что повышение уровня гражданского сознания является качественно новой ступенью модели развития.
@@ -127,8 +142,8 @@
 	<div class="background">
 		<div class="container fourth">
 			<div class="fourth_block">
-				<p class="fourth_block_text">Запишись на пробный урок</p>
-				<button class="btn fourth_block_button btn-primary" type="button">
+				<p class="fourth_block_text"data-aos="fade-left">Запишись на пробный урок</p>
+				<button class="btn fourth_block_button btn-primary"data-aos="fade-left" type="button">
 					<p>Забронировать урок</p>
 				</button>
 			</div>
@@ -173,7 +188,40 @@
 		    document.getElementById("info").classList.add('_active');
 		}
 	</script>
+
+
+
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+</script>
+
+
+	<script src="jq/js"></script>
 
   </body>
 </html>
